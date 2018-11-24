@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 import colors from 'vuetify/es5/util/colors'
-
+import Vuesax from 'vuesax'
+Vue.use(Vuesax);
+import 'vuesax/dist/vuesax.css'
 Vue.use(Vuetify, {
   theme: {
     primary: '#121212', // a color that is not in the material colors palette
