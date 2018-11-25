@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Vuetify from 'vuetify'
 import colors from 'vuetify/es5/util/colors'
 import Vuesax from 'vuesax'
+import Vuex from 'vuex'
+Vue.use(Vuex);
 Vue.use(Vuesax);
 import 'vuesax/dist/vuesax.css'
 Vue.use(Vuetify, {

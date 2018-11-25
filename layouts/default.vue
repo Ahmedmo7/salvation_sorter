@@ -8,14 +8,17 @@
         Quality
       </vs-sidebar-item>
 
-      <vs-sidebar-item index="3" icon="gavel" to="/main">
+      <vs-sidebar-item index="3" icon="gavel" to="/soiled">
         Soiled
+      </vs-sidebar-item>
+      <vs-sidebar-item index="3" icon="search" to="/main">
+        Denim
       </vs-sidebar-item>
 
     </vs-sidebar>
-    <v-toolbar app fixed clipped-left color="primary lighten-5">
-      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title>Dashboard</v-toolbar-title>
+    <v-toolbar app fixed clipped-left color="red darken-4">
+      <v-toolbar-side-icon class="white--text" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-title class="white--text">Dashboard</v-toolbar-title>
     </v-toolbar>
     <router-view></router-view>
   </v-app>
